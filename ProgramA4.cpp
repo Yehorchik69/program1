@@ -36,10 +36,11 @@ void intToCharArray(int number, char* result)
 }
 int main()
 {
-    int number = -623;
+    int number = -456;
     char result[12];
     intToCharArray(number, result);
     std::cout << "Число " << number << " у вигляді рядка: " << result << std::endl;
     return 0;
 }
+
 
