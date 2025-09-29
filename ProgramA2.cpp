@@ -7,4 +7,8 @@ if(a<0)
 {
 std::cout<<"number -";
 }
+else
+{
+std::cout << "number +";
+}
 }
