@@ -9,6 +9,6 @@ std::cout<<"number -";
 }
 else
 {
-std::cout << "number +";
+std::cout<<"number +";
 }
 }
