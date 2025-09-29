@@ -39,8 +39,9 @@ int main()
     int number = -456;
     char result[12];
     intToCharArray(number, result);
-    std::cout << "Число " << number << " у вигляді рядка: " << result << std::endl;
+    std::cout << "Number " << number << " as a string: " << result << std::endl;
     return 0;
 }
+
 
 
