@@ -1,0 +1,3 @@
+g++ -c person.cpp main.cpp
+g++ -o final_program person.o main.o
+./final_program 
