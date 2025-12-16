@@ -6,6 +6,16 @@ int main() {
     std::cout << "Enter a, b, c: ";
     std::cin >> a >> b >> c;
 
+    if (a == 0) {
+        if (b == 0) {
+            std::cout << "x = " << c << std::endl;
+        } 
+        else {
+            std::cout << "x = " << -c / b << std::endl;
+        }
+        return 0;
+    }
+
     double d = b * b - 4 * a * c;
 
     if (d < 0) {
